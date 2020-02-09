@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    /*El bg-color esta en el JS*/
+}
+.reloj{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    text-align: center;
+    background-color: transparent;
+    border: transparent;
+    font-size: 55px;
+    font-family: sans-serif;
+    color: white;
+}
+.location, .temperature{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.location{
+    justify-content: center;
+    height: 10vh;
+}
+.location-timezone{
+    font-size: 70px;
+}
+.temperature{
+    justify-content: space-around;
+    height: 20vh;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+.degree-section h2{
+    font-size: 60px;
+}
+.degree-section span{
+    margin: 10px;
+    font-size: 30px;
+}
+.wind-speed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wind-speed h3{
+    font-size: 30px;
+}
+.wind-speed span{
+    margin: 10px;
+    font-size: 23px;
+}
